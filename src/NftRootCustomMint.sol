@@ -25,6 +25,7 @@ contract NftRootCustomMint is NftRoot {
         _description = description;
         _icon = icon;
         _addrAuthor = addrAuthor;
+        _addrOwner = addrAuthor;
         _createChecks();
     }
 
