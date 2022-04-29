@@ -9,12 +9,12 @@ contract NftRootBase is NftRoot {
 
     constructor(
         string name,
-        string descriprion,
+        string description,
         address addrAuthor
     ) public {
         tvm.accept();
         _name = name;
-        _descriprion = descriprion;
+        _description = description;
         _addrAuthor = addrAuthor;
         _createChecks();
     }
@@ -22,7 +22,7 @@ contract NftRootBase is NftRoot {
     function getInfo() public returns (
         string version,
         string name,
-        string descriprion,
+        string description,
         bytes icon,
         uint128 totalSupply,
         address addrAuthor,
@@ -30,7 +30,7 @@ contract NftRootBase is NftRoot {
     ) {
         version = _version;
         name = _name;
-        descriprion = _descriprion;
+        description = _description;
         icon = _icon;
         totalSupply = _totalSupply;
         addrAuthor = _addrAuthor;

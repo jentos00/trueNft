@@ -7,7 +7,7 @@
 			"name": "constructor",
 			"inputs": [
 				{"name":"name","type":"string"},
-				{"name":"descriprion","type":"string"},
+				{"name":"description","type":"string"},
 				{"name":"addrAuthor","type":"address"}
 			],
 			"outputs": [
@@ -20,7 +20,7 @@
 			"outputs": [
 				{"name":"version","type":"string"},
 				{"name":"name","type":"string"},
-				{"name":"descriprion","type":"string"},
+				{"name":"description","type":"string"},
 				{"name":"icon","type":"bytes"},
 				{"name":"totalSupply","type":"uint128"},
 				{"name":"addrAuthor","type":"address"},
@@ -125,7 +125,7 @@
 		{"name":"_version","type":"string"},
 		{"name":"_totalSupply","type":"uint128"},
 		{"name":"_name","type":"string"},
-		{"name":"_descriprion","type":"string"},
+		{"name":"_description","type":"string"},
 		{"name":"_icon","type":"bytes"},
 		{"name":"_inited","type":"bool"},
 		{"name":"_codeIndexBasis","type":"cell"}

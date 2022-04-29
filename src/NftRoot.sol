@@ -24,7 +24,7 @@ abstract contract NftRoot is DataResolver, IndexResolver, INftRoot, Checks {
     uint128 _totalSupply = 0;
 
     string _name;
-    string _descriprion;
+    string _description;
     bytes _icon;
 
     bool public _inited = false;
