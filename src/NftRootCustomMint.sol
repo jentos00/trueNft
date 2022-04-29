@@ -14,7 +14,7 @@ contract NftRootCustomMint is NftRoot {
         MintType mintType,
         uint128 fee,
         string name,
-        string descriprion,
+        string description,
         bytes icon,
         address addrAuthor
     ) public override {
@@ -22,7 +22,7 @@ contract NftRootCustomMint is NftRoot {
         _mintType = mintType;
         _fee = fee;
         _name = name;
-        _descriprion = descriprion;
+        _description = description;
         _icon = icon;
         _addrAuthor = addrAuthor;
         _createChecks();
@@ -45,7 +45,7 @@ contract NftRootCustomMint is NftRoot {
         MintType mintType,
         uint128 fee,
         string name,
-        string descriprion,
+        string description,
         bytes icon,
         uint128 totalSupply,
         address addrAuthor,
@@ -55,7 +55,7 @@ contract NftRootCustomMint is NftRoot {
         mintType = _mintType;
         fee = _fee;
         name = _name;
-        descriprion = _descriprion;
+        description = _description;
         icon = _icon;
         totalSupply = _totalSupply;
         addrAuthor = _addrAuthor;
